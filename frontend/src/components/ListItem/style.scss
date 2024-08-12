@@ -1,0 +1,19 @@
+.listed-movie-container {
+  background-color: black;
+  width: 500px;
+  height: 150px;
+  cursor: pointer;
+  transition: 0.3s;
+  &:hover {
+    background-color: white;
+    color: black;
+  }
+  .item {
+    display: flex;
+    .item-text {
+      p {
+        padding: 5px;
+      }
+    }
+  }
+}

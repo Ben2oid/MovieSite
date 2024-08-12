@@ -1,0 +1,13 @@
+.button-container {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+  padding: 1rem;
+  justify-content: space-between;
+  background-color: black;
+  margin-bottom: 1rem;
+  .logo {
+    border: none;
+    background: none;
+  }
+}
